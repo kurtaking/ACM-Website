@@ -14,4 +14,9 @@ footer {
   left:0;
   color:#F15A22;
   background-color:#0c2340;
+.coverpicture{
+    background: url('../img/UTSA%20Jumbotron.jpg') no-repeat center center; 
+    height: 20ems;}
+.media{
+    text-align: center;
 }
