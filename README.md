@@ -24,6 +24,8 @@ To run the site on your local machine, you may use the python script "run.py" th
 
 <a href="https://github.com/gl4sslotus"> Triston Scallan </a> Web Development
 
+<a href="https://github.com/Fromalaska49"> Andrew Hutton </a> Web Development
+
 <a href="https://github.com/nishantg95"> Nishant Grover </a> Graphic Design
 
 <a href="https://github.com/BradLugo">Brad Lugo</a> Web Development
