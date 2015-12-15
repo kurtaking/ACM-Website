@@ -6,7 +6,7 @@ p {
     text-justify: auto;
 }
 .coverpicture{
-    background: url('../img/UTSA-Jumbotron.jpg') no-repeat center center fixed;
+    background: url('../img/UTSA-Jumbotron-small.jpg') no-repeat center center fixed;
     background-position: 100% -25%;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
