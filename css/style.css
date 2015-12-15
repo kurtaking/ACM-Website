@@ -5,3 +5,9 @@ p {
     text-align: justify;
     text-justify: auto;
 }
+.coverpicture{
+    background: url('../img/UTSA%20Jumbotron.jpg') no-repeat center center; 
+    height: 20ems;}
+.media{
+    text-align: center;
+}
