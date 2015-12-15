@@ -7,11 +7,12 @@ p {
 }
 .coverpicture{
     background: url('../img/UTSA-Jumbotron.jpg') no-repeat center center fixed;
+    background-position: 100% -25%;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-    height: 400px;
+    height: 450px;
     margin-top: -20px}
 .media{
     text-align: center;
