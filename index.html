@@ -19,43 +19,15 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <div navbar></div>
 
-        <header>
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="/">ACM at UTSA</a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse" ng-controller="NavigationController">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li ng-class="{ active: isActive('/home')}"><a href="/">Home</a></li>
-                            <li ng-class="{ active: isActive('/contact')}"><a href="/contact">Contact Us</a></li>
-                            <li ng-class="{ active: isActive('/calendar')}"><a href="/calendar">Calendar</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
 
         <div class="container">
             <div ui-view></div>
         </div>
 
-        <footer>
-            <div class="navbar navbar-default">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <p>ACM UTSA footer col1</p>
-                        </div>
-                        <div class="col-xs-6">
-                            <p>ACM UTSA footer col2</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
 
+    <div footer></div>
         <script src="/js/vendor/jquery-2.1.4.min.js"></script>
         <script src="/js/vendor/angular-1.4.6.min.js"></script>
         <script src="/js/vendor/angular-ui-router-0.2.15.min.js"></script>
@@ -64,6 +36,9 @@
         <script src="/js/vendor/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/navbar.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
