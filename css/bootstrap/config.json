@@ -149,7 +149,7 @@
     "@navbar-default-color": "#0C2340",
     "@navbar-default-bg": "#0C2340",
     "@navbar-default-border": "#F15A22",
-    "@navbar-default-link-color": "#777",
+    "@navbar-default-link-color": "#F15A22",
     "@navbar-default-link-hover-color": "#333",
     "@navbar-default-link-hover-bg": "transparent",
     "@navbar-default-link-active-color": "#555",
@@ -424,5 +424,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=6c04e9057bf9beaa47c8"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=cbccff75143f385adef3"
 }
