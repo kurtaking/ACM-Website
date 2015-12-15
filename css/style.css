@@ -11,7 +11,12 @@ p {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-    height: 400px;}
+    height: 400px;
+    margin-top: -20px}
 .media{
     text-align: center;
+}
+.sortacontainer{
+    border: 3px solid #F15A22;
+    margin-top: -20px;
 }
