@@ -21,6 +21,9 @@ To run the site on your local machine, you may use the python script "run.py" th
 ###Collaborators:
 
 <a href="https://github.com/cdminigun">Christopher Doege</a> Web Development & Coordination
+
 <a href="https://github.com/gl4sslotus"> Triston Scallan </a> Web Development
+
 <a href="https://github.com/nishantg95"> Nishant Grover </a> Graphic Design
+
 <a href="https://github.com/BradLugo">Brad Lugo</a> Web Development
