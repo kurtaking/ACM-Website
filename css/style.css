@@ -5,23 +5,27 @@ p {
 h1,h2,h3,h4,h5,h6 {
   color :#f15a22;
 }
-.coverpicture{
-    background: url('../img/UTSA-Jumbotron-no-text.jpg') no-repeat center center fixed;
-    background-position: 100% -25%;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-    height: 450px;
-    margin-top: -20px;
-    background-size: 106% 80%;
-  }
+.cover-picture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../img/UTSA-Jumbotron-no-text.jpg');
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    border:5px solid black; 
+}
+.cover-text {
+    position: absolute;
+    text-align: center;
+    left:25%;
+    top:20%;
+}
 .media{
     text-align: center;
-}
-.sortacontainer{
-    border: 3px solid #F15A22;
-    margin-top: -20px;
 }
 
 @font-face {
@@ -31,16 +35,41 @@ h1,h2,h3,h4,h5,h6 {
 
 .jumbo-text {
   font-family: 'robo';
-  padding-left:50px;
   color: black;
 }
 .jumbo-header {
-  font-size:16em;
-  padding-left: -5px;
+  font-size:20em;
 }
 .jumbo-content{
-  font-size:5em;
+  font-size:10em;
 }
 .well {
     background-color: #eee;
+}
+.content-area {
+    position: absolute;
+    top: 105%;
+    width: 100%;    
+}
+.content-box {
+    padding-top:5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 350px;
+}
+.content-box p {
+    text-align: center;
+}
+.about {
+    background-color: #0072BC; /* light blue */
+    color: #fff;
+}
+.mission {
+
+}
+.event {
+    background-color: #c9cac8;
+}
+.ng-scope{
+    margin-top: -20px;
 }
