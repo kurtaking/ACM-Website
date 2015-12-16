@@ -2,6 +2,9 @@ p {
     text-align: justify;
     text-justify: auto;
 }
+h1,h2,h3,h4,h5,h6 {
+  color :#f15a22;
+}
 .coverpicture{
     background: url('../img/UTSA-Jumbotron-no-text.jpg') no-repeat center center fixed;
     background-position: 100% -25%;
@@ -28,10 +31,12 @@ p {
 
 .jumbo-text {
   font-family: 'robo';
+  padding-left:50px;
   color: black;
 }
 .jumbo-header {
-  font-size:14em;
+  font-size:16em;
+  padding-left: -5px;
 }
 .jumbo-content{
   font-size:5em;
