@@ -5,6 +5,9 @@ p {
 h1,h2,h3,h4,h5,h6 {
   color :#f15a22;
 }
+.page-name h1 {
+    font-size:4em;
+}
 .cover-picture{
     position: absolute;
     width: 100%;
@@ -15,13 +18,12 @@ h1,h2,h3,h4,h5,h6 {
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
-    filter: blur(5px);
-    border:5px solid black; 
+    filter: blur(5px); 
 }
 .cover-text {
     position: absolute;
     text-align: center;
-    left:25%;
+    left:5%;
     top:20%;
 }
 .media{
@@ -32,7 +34,16 @@ h1,h2,h3,h4,h5,h6 {
   font-family:'robo';
   src: url('/fonts/robofan.otf');
 }
-
+.navbar-transparent {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.navbar-right .social-button a {
+    padding:0;
+    margin:0;
+    padding-top: 4%;
+}
 .jumbo-text {
   font-family: 'robo';
   color: black;
@@ -45,6 +56,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 .well {
     background-color: #eee;
+}
+.form-well{
+    position: relative;
+    left:17%;
+    border:1px solid #0c2340;
 }
 .content-area {
     position: absolute;
@@ -60,16 +76,14 @@ h1,h2,h3,h4,h5,h6 {
 .content-box p {
     text-align: center;
 }
-.about {
-    background-color: #0072BC; /* light blue */
+#about {
+    background-color: #0c2340;
     color: #fff;
 }
-.mission {
+#mission {
 
 }
-.event {
-    background-color: #c9cac8;
-}
-.ng-scope{
-    margin-top: -20px;
+#event {
+    background-color: #0c2340;
+    color: #fff;
 }
