@@ -2,6 +2,9 @@ p {
     text-align: justify;
     text-justify: auto;
 }
+h1,h2,h3,h4,h5,h6 {
+  color :#f15a22;
+}
 .cover-picture{
     position: absolute;
     width: 100%;
@@ -14,6 +17,18 @@ p {
     -ms-filter: blur(5px);
     filter: blur(5px);
     border:5px solid black; 
+}
+.coverpicture{
+    background: url('../img/UTSA-Jumbotron-no-text.jpg') no-repeat center center fixed;
+    background-position: 100% -25%;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    height: 450px;
+    margin-top: -20px;
+    background-size: 106% 80%;
+>>>>>>> refs/remotes/UTSA-ACM/master
   }
 .cover-text {
     position: absolute;
@@ -32,10 +47,16 @@ p {
 
 .jumbo-text {
   font-family: 'robo';
+  padding-left:50px;
   color: black;
 }
 .jumbo-header {
+<<<<<<< HEAD
   font-size:20em;
+=======
+  font-size:16em;
+  padding-left: -5px;
+>>>>>>> refs/remotes/UTSA-ACM/master
 }
 .jumbo-content{
   font-size:10em;
