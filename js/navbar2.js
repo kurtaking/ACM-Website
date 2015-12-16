@@ -9,3 +9,17 @@ site.directive('navbar2', function () {
         }]
     }
 });
+
+jQuery(document).ready(function($){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 0) {
+			$('.navbar-fixed-top').removeClass("navbar-transparent");
+            $('.navbar-brand').css("color","#f15a22");
+            $('.nav > li >a').css("color","#f15a22");
+		} else {
+			$('.navbar-fixed-top').addClass("navbar-transparent");
+            $('.navbar-brand').css("color","#fff");
+            $('.nav > li >a').css("color","#fff");
+		}
+	});
+});
