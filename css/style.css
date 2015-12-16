@@ -3,20 +3,38 @@ p {
     text-justify: auto;
 }
 .coverpicture{
-    background: url('../img/UTSA-Jumbotron-small.jpg') no-repeat center center fixed;
+    background: url('../img/UTSA-Jumbotron-no-text.jpg') no-repeat center center fixed;
     background-position: 100% -25%;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
     height: 450px;
-    margin-top: -20px}
+    margin-top: -20px;
+    background-size: 106% 80%;
+  }
 .media{
     text-align: center;
 }
 .sortacontainer{
     border: 3px solid #F15A22;
     margin-top: -20px;
+}
+
+@font-face {
+  font-family:'robo';
+  src: url('/fonts/robofan.otf');
+}
+
+.jumbo-text {
+  font-family: 'robo';
+  color: black;
+}
+.jumbo-header {
+  font-size:14em;
+}
+.jumbo-content{
+  font-size:5em;
 }
 .well {
     background-color: #eee;
