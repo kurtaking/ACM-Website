@@ -52,7 +52,6 @@ p {
     padding-top:5%;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #eee;
     height: 350px;
 }
 .content-box p {
@@ -63,10 +62,10 @@ p {
     color: #fff;
 }
 .mission {
-    
+
 }
 .event {
-    background-color: #eee;
+    background-color: #c9cac8;
 }
 .ng-scope{
     margin-top: -20px;
