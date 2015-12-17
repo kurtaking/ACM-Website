@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6 {
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
-    filter: blur(5px); 
+    filter: blur(5px);
 }
 .cover-text {
     position: absolute;
@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6 {
 .content-area {
     position: absolute;
     top: 105%;
-    width: 100%;    
+    width: 100%;
 }
 .content-box {
     padding-top:5%;
@@ -75,6 +75,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 .content-box p {
     text-align: center;
+}
+.text-center {
+    text-align:center;
 }
 #about {
     background-color: #0c2340;
