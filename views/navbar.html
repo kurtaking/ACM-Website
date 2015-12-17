@@ -1,0 +1,17 @@
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">ACM at UTSA</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" ng-controller="NavigationController">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ng-class="{ active: isActive('/contact')}"><a href="/contact">Contact Us</a></li>
+                    <li ng-class="{ active: isActive('/calendar')}"><a href="/calendar">Calendar</a></li>
+                    <li class="social-button hidden"><a href="https://www.facebook.com/groups/765351663591910/" target="new"><img src="../img/facebookIcon.png" height="10%" width="10%;"></a></li>
+                    <li class="social-button hidden"><a href="https://www.twitter.com" target="new"><img src="../img/twitterIcon.png" height="10%" width="10%;"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

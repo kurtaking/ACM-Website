@@ -1,0 +1,92 @@
+p {
+    text-align: justify;
+    text-justify: auto;
+}
+h1,h2,h3,h4,h5,h6 {
+  color :#f15a22;
+}
+.page-name h1 {
+    font-size:4em;
+}
+.cover-picture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../img/UTSA-Jumbotron-no-text.jpg');
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.cover-text {
+    position: absolute;
+    text-align: center;
+    left:5%;
+    top:20%;
+}
+.media{
+    text-align: center;
+}
+
+@font-face {
+  font-family:'robo';
+  src: url('/fonts/robofan.otf');
+}
+.navbar-transparent {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.navbar-right .social-button a {
+    padding:0;
+    margin:0;
+    padding-top: 4%;
+}
+.jumbo-text {
+  font-family: 'robo';
+  color: black;
+}
+.jumbo-header {
+  font-size:20em;
+}
+.jumbo-content{
+  font-size:10em;
+}
+.well {
+    background-color: #eee;
+}
+.form-well{
+    position: relative;
+    left:17%;
+    border:1px solid #0c2340;
+}
+.content-area {
+    position: absolute;
+    top: 105%;
+    width: 100%;
+}
+.content-box {
+    padding-top:5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 350px;
+}
+.content-box p {
+    text-align: center;
+}
+.text-center {
+    text-align:center;
+}
+#about {
+    background-color: #0c2340;
+    color: #fff;
+}
+#mission {
+
+}
+#event {
+    background-color: #0c2340;
+    color: #fff;
+}
