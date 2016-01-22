@@ -2,12 +2,14 @@
     <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">ACM at UTSA</a>
+                <a class="navbar-brand" href="/"><img src="../img/ACMRRanti.png"></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse" ng-controller="NavigationController">
                 <ul class="nav navbar-nav navbar-right">
-                    <li ng-class="{ active: isActive('/contact')}"><a href="/contact">Contact Us</a></li>
-                    <li ng-class="{ active: isActive('/calendar')}"><a href="/calendar">Calendar</a></li>
+                    <li ng-class="{ active: isActive('/home')}"><a href="/">HOME</a></li>
+                    <li ng-class="{ active: isActive('/events')}"><a href="/events">EVENTS</a></li>
+                    <li ng-class="{ active: isActive('/contact')}"><a href="/contact">CONTACT</a></li>
+                    <li ng-class="{ active: isActive('/calendar')}"><a href="/calendar">CALENDAR</a></li>
                 </ul>
             </div>
         </div>
