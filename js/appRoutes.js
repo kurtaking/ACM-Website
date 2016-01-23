@@ -21,9 +21,9 @@ site.config(function($stateProvider, $locationProvider, $urlRouterProvider) {
             url: '/contact',
             templateUrl: '../views/contact.html'
         })
-        .state('calendar', {
-            url: '/calendar',
-            templateUrl: '../views/calendar.html'
+        .state('events', {
+            url: '/events',
+            templateUrl: '../views/events.html'
         })
         .state('404', {
             url: '/404',
