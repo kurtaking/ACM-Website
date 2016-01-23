@@ -78,14 +78,16 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 .content-box-left {
+    background-color: #fff;
+    color: #000;
     padding-top:5%;
     padding-left: 5%;
     padding-right: 5%;
     height: 350px;
-    background-color: #0c2340;
-    color: #fff;
 }
 .content-box-right {
+    background-color: #0c2340;
+    color: #fff;
     padding-top:5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -97,10 +99,12 @@ h1,h2,h3,h4,h5,h6 {
 .content-box-right p {
     text-align: right;
 }
+.info-item {
+    margin-bottom: 25px;
+}
 .text-center {
     text-align:center;
 }
-
 .footer{
     padding-top: 15px;
     padding-bottom: 10px;

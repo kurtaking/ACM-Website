@@ -9,9 +9,13 @@ site.config(function($stateProvider, $locationProvider, $urlRouterProvider) {
             url: '/',
             templateUrl: '../views/home.html'
         })
-        .state('events', {
-            url: '/events',
-            templateUrl: '../views/events.html'
+        .state('info', {
+            url: '/info',
+            templateUrl: '../views/info.html'
+        })
+        .state('involvement', {
+            url: '/involvement',
+            templateUrl: '../views/involvement.html'
         })
         .state('contact', {
             url: '/contact',
