@@ -9,7 +9,6 @@ html {
 } 
 
 body {
-    background-color: #fff;
     padding-top: 50px;
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -21,6 +20,132 @@ h1,h2,h3,h4,h5,h6 {
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
 }
+hr {
+    max-width: 900px;
+}
+
+h3 hr {
+    max-width: 250px;
+}
+
+
+
+
+#masthead { 
+ min-height:250px;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .well {
+ margin-top:8%;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+        margin-top:30px;
+        width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+
+
+
+
+
+.media {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.media-heading small {
+    color: #f15a22;
+}
+.media-list li{
+    padding-bottom: 35px;
+}
+.media-body{
+    text-align: center;
+    height: 250px;
+}
+.media img {
+    width: 300px; 
+    height: auto;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/Jumbotron.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
+#socialmedia{
+    text-align: center;
+}
 #calendar {
     background-color: #fff;
 }
@@ -31,10 +156,15 @@ h1,h2,h3,h4,h5,h6 {
     margin: 5px 0 5px;
     font-size: 20px;
 }
-
+#officers p {
+    color: #000;
+}
+#info-item{
+    margin-bottom: 25px;
+}
 .acminfo{
     font-size: 100px;
-    text-align: center;
+    text-lign: center;
 }
 
 .cover-picture{
@@ -52,25 +182,19 @@ h1,h2,h3,h4,h5,h6 {
     top:20%;
 }
 
-.media{
-    text-align: center;
-}
 
 @font-face {
   font-family:'robo';
   src: url('/fonts/robofan.otf');
 }
+
+
 .navbar-transparent {
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     background-color: transparent;
     border: none;
     color: #fff;
-}
-.navbar-right .social-button a {
-    padding:0;
-    margin:0;
-    padding-top: 4%;
 }
 .navbar-brand {
     padding: 0;
@@ -94,9 +218,6 @@ h1,h2,h3,h4,h5,h6 {
     left:17%;
     border:1px solid #0c2340;
 }
-.ng-scope{
-    background-color: #0c2340;
-}
 .content-area {
     background-color: #0c2340;
     color: #fff;
@@ -106,7 +227,7 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 .content-box-left {
-    background-color: #f15a22;
+    background-color: #fff;
     color: #000;
     padding-top:5%;
     padding-left: 5%;
@@ -152,7 +273,94 @@ h1,h2,h3,h4,h5,h6 {
     list-style-position: inside;
 }
 .footer{
-    color: #fff;
+    color: #f15a22;
+    background-color: #fff;
+    max-height: 174px;
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
+
+
+/********
+        potential separate navbar for home page
+********/
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }
+}
+
